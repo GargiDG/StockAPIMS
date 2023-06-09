@@ -1,0 +1,7 @@
+package in.gargi.restcontroller;
+
+@RestController
+@RequestMapping("/calc")
+public class StockCalculationRestController {
+
+}

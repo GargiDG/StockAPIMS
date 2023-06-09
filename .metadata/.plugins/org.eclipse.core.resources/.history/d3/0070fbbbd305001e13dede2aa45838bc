@@ -1,0 +1,7 @@
+package in.gargi.client;
+
+
+@FeignClient(name = "STOCK-PRICE-SERVICE")
+public interface StockClient {
+
+}

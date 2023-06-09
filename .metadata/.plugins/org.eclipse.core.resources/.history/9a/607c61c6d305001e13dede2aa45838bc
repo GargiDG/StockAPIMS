@@ -1,0 +1,11 @@
+package in.gargi.client;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient(name = "STOCK-PRICE-SERVICE")
+public interface StockClient {
+	@GetMapping("/price/stockPrice/{companyName}")
+	public ResponseEntity<Double> getStockPrice(@PathVariable String companyName);
+	
+
+}

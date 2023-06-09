@@ -1,0 +1,13 @@
+package in.gargi.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.Data;
+
+@Data
+@Entity
+@Table(name ="STOCK_PRICE")
+public class StockPrice {
+
+}

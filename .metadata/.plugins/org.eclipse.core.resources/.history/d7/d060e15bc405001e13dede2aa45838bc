@@ -1,0 +1,14 @@
+package in.gargi.service;
+
+public class StockPriceServiceimpl implements IStockPriceService {
+
+	@Autowired
+	private StockRepository repo;
+
+	@Override
+	public Double findByCompanyName(String companyName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

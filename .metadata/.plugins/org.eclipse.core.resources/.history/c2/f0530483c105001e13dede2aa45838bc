@@ -1,0 +1,7 @@
+package in.gargi.entity;
+@Data
+@Entity
+@Table(name ="STOCK_PRICE")
+public class StockPrice {
+
+}

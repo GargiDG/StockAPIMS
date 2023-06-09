@@ -1,0 +1,5 @@
+package in.gargi.service;
+
+public class StockService {
+
+}

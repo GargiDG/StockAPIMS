@@ -1,0 +1,11 @@
+package in.gargi.controller;
+
+public class StockUIController {
+	
+	@GetMapping("/")
+	public String loadPage() {
+		System.out.println("StockUIController loadPage()");
+		return "index";
+	}
+
+}

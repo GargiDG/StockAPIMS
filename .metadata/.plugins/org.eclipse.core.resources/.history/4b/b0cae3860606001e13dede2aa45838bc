@@ -1,0 +1,7 @@
+package in.gargi.restcontroller;
+
+@RestController
+@RequestMapping("/api/greet")
+public class SampleRestController {
+
+}

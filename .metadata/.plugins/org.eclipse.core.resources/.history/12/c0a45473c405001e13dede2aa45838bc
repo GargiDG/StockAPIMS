@@ -1,0 +1,18 @@
+package in.gargi.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import in.gargi.repository.StockRepository;
+
+public class StockPriceServiceimpl implements IStockPriceService {
+
+	@Autowired
+	private StockRepository repo;
+
+	@Override
+	public Double findByCompanyName(String companyName) {
+		
+		return null;
+	}
+
+}
